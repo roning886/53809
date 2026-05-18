@@ -10,5 +10,5 @@ En la línea 9, dentro del apartado de "input", debemos cambiar el nombre de cad
 
     incorrecto2.txt
 
-ahora podemos presionar F5 para iniciar la depuracion y mostrar el diagrama de arbol
+ahora tenemos que mantener abierto en las ventanas al "gloqueador.g4" y "index.js" presionar F5 para iniciar la depuracion y mostrar el diagrama de arbol
 y en el apartado debug console apareceran los tokens, errores y el arbol sintactico en formato de texto
