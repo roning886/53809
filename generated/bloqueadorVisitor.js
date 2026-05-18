@@ -1,4 +1,4 @@
-// Generated from f:/TAREAS/ing en sistemas/sintaxis y semantica de lenguaje/analizaor sintacticop/bloqueador de usuarios/bloqueador.g4 by ANTLR 4.13.2
+// Generated from f:/TAREAS/ing en sistemas/sintaxis y semantica de lenguaje/analizaor sintacticop/bloqueador de usuarios/antlr-bloqueador-project/bloqueador.g4 by ANTLR 4.13.2
 // jshint ignore: start
 import antlr4 from 'antlr4';
 
