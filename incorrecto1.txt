@@ -1,0 +1,2 @@
+regla 'error_sintaxis' { cuando intentoAccesoFueraHorario agregarUsuarioAListaNegra }
+accion 'agregarUsuarioAListaNegra' { }

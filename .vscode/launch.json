@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug ANTLR Grammar",
+            "type": "antlr-debug",
+            "request": "launch",
+            "grammar": "bloqueador.g4",
+            "input": "correcto1.txt", //aqui cambiar los diferentes archivos txt para probar el analizador
+            "startRule": "prog",
+            "printParseTree": true,
+            "visualParseTree": true
+        }
+    ]
+}

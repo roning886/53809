@@ -1,0 +1,2 @@
+regla 'bloqueo_ip_servidor' { cuando intentoAccesoFueraHorario entonces agregarIPAListaNegra }
+accion 'agregarIPAListaNegra' { }

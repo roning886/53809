@@ -1,0 +1,2 @@
+regla 'error_lexico' { cuando intentoAccesoFueraHorario entnces activarMonitoreoDetallado }
+accion 'activarMonitoreoDetallado' { }
