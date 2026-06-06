@@ -45,10 +45,17 @@ IF: 'if';
 ELSE: 'else';
 CONSOLE: 'console';
 LOG: 'log';
+PUNTO_COMA: ';';
+PUNTO: '.';
+IGUAL: '=';
+R_PARENT: ')';
+L_PARENT: '(';
+R_LLAVE: '}';
+L_LLAVE: '{';
 
 MAYOR: '>';
 MENOR: '<';
-IGUAL: '==';
+IGUAL_COMP: '==';
 
 MAS: '+';
 MENOS: '-';

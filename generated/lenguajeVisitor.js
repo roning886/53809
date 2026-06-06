@@ -1,4 +1,4 @@
-// Generated from f:/TAREAS/ing en sistemas/sintaxis y semantica de lenguaje/analizaor sintacticop/calculadora/53809/lenguaje.g4 by ANTLR 4.13.2
+// Generated from f:/TAREAS/ing en sistemas/sintaxis y semantica de lenguaje/53809/lenguaje.g4 by ANTLR 4.13.2
 // jshint ignore: start
 import antlr4 from 'antlr4';
 
