@@ -21,6 +21,7 @@ class CustomLanguageVisitor extends lenguajeVisitor {
         const bloques = ctx.bloque();
         
         const resultadoCondicion = this.visitCondicion(condicion);
+        console.log(`▶ IF: condición evaluada a ${resultadoCondicion}`);
         
         if (resultadoCondicion) {
             if (bloques && bloques.length > 0) {
@@ -85,6 +86,7 @@ class CustomLanguageVisitor extends lenguajeVisitor {
         const valor = this.visitExpresion(exprCtx);
         
         this.memory.set(id, valor);
+        console.log(`✓ ${id} = ${valor}`);
         return null;
     }
 

@@ -48,6 +48,8 @@ async function main() {
         console.log();
         
         console.log("=== EJECUCIÓN ===");
+        console.log("Entrada:\n" + input);
+        console.log("\nResultados:");
         const visitor = new CustomLanguageVisitor();
         visitor.visit(tree);   
     }
