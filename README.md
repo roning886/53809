@@ -9,5 +9,6 @@ npm start input_invalido_1.txt
 
 npm start input_invalido_2.txt
 
+tambien esta implementado la funcion de f5 mediante el run and debug para ejecutar todos los inputs, ya sea desde consola o grafico
 una vez ejecutado el comando mostrara la tabla de lexemas, tokens y arbol de derivacion.
 en caso de los inputs invalidos mostrara la linea donde esta el error.

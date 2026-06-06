@@ -1,14 +1,95 @@
 {
     "version": "2.0.0",
     "configurations": [
-    {
-    "name": "Debug ANTLR4 grammar",
-    "type": "antlr-debug",
-    "request": "launch",
-    "input": "input.txt",
-    "grammar": "Calculator.g4",
-    "printParseTree": true,
-    "visualParseTree": true
-    }
+        {
+            "name": "1. Debug Gráfico - input.txt",
+            "type": "antlr-debug",
+            "request": "launch",
+            "input": "input.txt",
+            "grammar": "lenguaje.g4",
+            "printParseTree": true,
+            "visualParseTree": true
+        },
+        {
+            "name": "2. Debug Gráfico - input_valido_1.txt",
+            "type": "antlr-debug",
+            "request": "launch",
+            "input": "input_valido_1.txt",
+            "grammar": "lenguaje.g4",
+            "printParseTree": true,
+            "visualParseTree": true
+        },
+        {
+            "name": "3. Debug Gráfico - input_valido_2.txt",
+            "type": "antlr-debug",
+            "request": "launch",
+            "input": "input_valido_2.txt",
+            "grammar": "lenguaje.g4",
+            "printParseTree": true,
+            "visualParseTree": true
+        },
+        {
+            "name": "4. Debug Gráfico - input_invalido_1.txt",
+            "type": "antlr-debug",
+            "request": "launch",
+            "input": "input_invalido_1.txt",
+            "grammar": "lenguaje.g4",
+            "printParseTree": true,
+            "visualParseTree": true
+        },
+        {
+            "name": "5. Debug Gráfico - input_invalido_2.txt",
+            "type": "antlr-debug",
+            "request": "launch",
+            "input": "input_invalido_2.txt",
+            "grammar": "lenguaje.g4",
+            "printParseTree": true,
+            "visualParseTree": true
+        },
+        {
+            "name": "6. Debug Consola - input.txt",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/index.js",
+            "args": ["input.txt"],
+            "console": "integratedTerminal",
+            "skipFiles": ["<node_internals>/**"]
+        },
+        {
+            "name": "7. Debug Consola - input_valido_1.txt",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/index.js",
+            "args": ["input_valido_1.txt"],
+            "console": "integratedTerminal",
+            "skipFiles": ["<node_internals>/**"]
+        },
+        {
+            "name": "8. Debug Consola - input_valido_2.txt",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/index.js",
+            "args": ["input_valido_2.txt"],
+            "console": "integratedTerminal",
+            "skipFiles": ["<node_internals>/**"]
+        },
+        {
+            "name": "9. Debug Consola - input_invalido_1.txt",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/index.js",
+            "args": ["input_invalido_1.txt"],
+            "console": "integratedTerminal",
+            "skipFiles": ["<node_internals>/**"]
+        },
+        {
+            "name": "10. Debug Consola - input_invalido_2.txt",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/index.js",
+            "args": ["input_invalido_2.txt"],
+            "console": "integratedTerminal",
+            "skipFiles": ["<node_internals>/**"]
+        }
     ]
 }
