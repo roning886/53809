@@ -31,13 +31,13 @@ async function main() {
         
         console.log("=== TABLA DE TOKENS ===");
         const tokens = tokenStream.tokens;
-        console.log("Número | Valor | Clasificación");
-        console.log("-------|-------|---------------");
+        console.log("Número | Valor   | Clasificación");
+        console.log("-------|---------|---------------");
         for (let i = 0; i < tokens.length; i++) {
             const token = tokens[i];
             if (token.type !== antlr4.Token.EOF) {
                 const tokenName = parser.symbolicNames[token.type] || "UNNAMED";
-                console.log(`${i.toString().padEnd(6)} | ${token.text.padEnd(5)} | ${tokenName}`);
+                console.log(`${i.toString().padEnd(6)} | ${token.text.padEnd(7)} | ${tokenName}`);
             }
         }
         console.log();
